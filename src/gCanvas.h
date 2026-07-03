@@ -1,4 +1,4 @@
- /*
+/*
  * gCanvas.h
  *
  *  Created on: May 6, 2020
@@ -14,6 +14,9 @@
 #include "gModel.h"
 #include "gCamera.h"
 #include "gSkyBox.h"
+#include "gLight.h"
+
+#include <array>
 
 
 class gCanvas : public gBaseCanvas {
@@ -28,7 +31,7 @@ public:
 	void keyPressed(int key);
 	void keyReleased(int key);
 	void charPressed(unsigned int codepoint);
-	void mouseMoved(int x, int y );
+	void mouseMoved(int x, int y);
 	void mouseDragged(int x, int y, int button);
 	void mousePressed(int x, int y, int button);
 	void mouseReleased(int x, int y, int button);
@@ -41,10 +44,26 @@ public:
 	void hideNotify();
 
 private:
+	static const int KEY_NONE = 0, KEY_W = 1, KEY_S = 2,KEY_A = 4, KEY_D = 8, KEY_LEFT_SHIFT = 16,
+	KEY_LEFT_CONTROL = 32;
+	static const int CAMERANUM = 3;
+
+	enum {
+		CAM_BACK, CAM_TOP, CAM_FRONT
+	};
+
 	gApp* root;
+
 	gModel airport;
-	gCamera cam;
+	gModel plane;
+
+	std::array<gCamera, CAMERANUM> cam;
+
 	gSkybox sky;
+	gLight sun;
+
+	int keystate;
+	float planeangle;
 };
 
 #endif /* GCANVAS_H_ */
