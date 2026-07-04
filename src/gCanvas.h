@@ -15,6 +15,7 @@
 #include "gCamera.h"
 #include "gSkyBox.h"
 #include "gLight.h"
+#include "gFont.h"
 
 #include <array>
 
@@ -46,24 +47,31 @@ public:
 private:
 	static const int KEY_NONE = 0, KEY_W = 1, KEY_S = 2,KEY_A = 4, KEY_D = 8, KEY_LEFT_SHIFT = 16,
 	KEY_LEFT_CONTROL = 32;
-	static const int CAMERANUM = 3;
+	static const int CAMERANUM = 4;
 
 	enum {
-		CAM_BACK, CAM_TOP, CAM_FRONT
+		CAM_TOPBACK, CAM_BACK, CAM_FRONT, CAM_BACK_REVERSE
 	};
 
 	gApp* root;
 
+	void moveCameras();
+	void movePlane();
+	void resetCameras();
+
 	gModel airport;
 	gModel plane;
-
-	std::array<gCamera, CAMERANUM> cam;
-
+	gFont camfont;
 	gSkybox sky;
 	gLight sun;
 
+	std::array<gCamera, CAMERANUM> cam;
+
 	int keystate;
 	float planeangle;
+	int activecam;
+	int previouscam;
+	std::string camnames[CAMERANUM];
 };
 
 #endif /* GCANVAS_H_ */
