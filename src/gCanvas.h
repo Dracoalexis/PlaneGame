@@ -47,10 +47,10 @@ public:
 private:
 	static const int KEY_NONE = 0, KEY_W = 1, KEY_S = 2,KEY_A = 4, KEY_D = 8, KEY_LEFT_SHIFT = 16,
 	KEY_LEFT_CONTROL = 32;
-	static const int CAMERANUM = 4;
+	static const int CAMERANUM = 5;
 
 	enum {
-		CAM_TOPBACK, CAM_BACK, CAM_FRONT, CAM_BACK_REVERSE
+		CAM_TOPBACK, CAM_BACK, CAM_FRONT, CAM_LEFT, CAM_BACK_REVERSE
 	};
 
 	gApp* root;
@@ -58,20 +58,26 @@ private:
 	void moveCameras();
 	void movePlane();
 	void resetCameras();
+	void resetRotations();
 
 	gModel airport;
 	gModel plane;
+	gModel pbackleftwheel;
+	gModel pbackrightwheel;
+	gModel pfrontwheel;
 	gFont camfont;
+	gFont speedfont;
 	gSkybox sky;
 	gLight sun;
 
 	std::array<gCamera, CAMERANUM> cam;
 
 	int keystate;
-	float planeangle;
+	float horizontalplaneangle;
 	int activecam;
 	int previouscam;
 	std::string camnames[CAMERANUM];
+	float speed, maxspeed, acceleration, deceleration;
 };
 
 #endif /* GCANVAS_H_ */

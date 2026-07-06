@@ -23,12 +23,19 @@ gCanvas::~gCanvas() {
 
 void gCanvas::setup() {
 	airport.loadModel("biggermap.obj");
-	plane.loadModel("plane.obj");
+	plane.loadModel("planewithoutwheels.obj");
+	pbackleftwheel.loadModel("planeleftbackwheel.obj");
+	pbackrightwheel.loadModel("planerightbackwheel.obj");
+	pfrontwheel.loadModel("planefrontwheel.obj");
 	camfont.loadFont("ACES07_Regular.ttf", 20);
+	speedfont.loadFont("ACES07_Regular.ttf", 20);
 	plane.boom(-0.15f);
 	plane.dolly(7.0f);
 	plane.truck(-5.0f);
 	plane.pan(PI);
+	pbackleftwheel.pan(PI);
+	pbackrightwheel.pan(PI);
+	pfrontwheel.pan(PI);
 	activecam = CAM_TOPBACK;
 	cam[CAM_TOPBACK].pan(PI);
 	cam[CAM_BACK].pan(PI);
@@ -48,18 +55,25 @@ void gCanvas::setup() {
 	sky.scale(20.0f);
 	sky.pan(PI);
 	keystate = KEY_NONE;
-	planeangle = 0.0f;
+	horizontalplaneangle = 0.0f;
 	camnames[CAM_TOPBACK] = "TOP BACK";
 	camnames[CAM_BACK] = "BACK";
 	camnames[CAM_FRONT] = "FRONT";
 	camnames[CAM_BACK_REVERSE] = "REVERSE";
+	camnames[CAM_LEFT] = "LEFT";
+	speed = 0.0f;
+	maxspeed = 1.2f;
+	acceleration = 0.0012f;
+	deceleration = 0.0003f;
 }
 
 
 void gCanvas::update() {
 	resetCameras();
+	resetRotations();
 	movePlane();
 	moveCameras();
+	gLogi("Hýz" + std::to_string(speed));
 }
 
 
@@ -70,55 +84,91 @@ void gCanvas::draw() {
 	sky.draw();
 	airport.draw();
 	plane.draw();
+	pbackleftwheel.draw();
+	pbackrightwheel.draw();
+	pfrontwheel.draw();
 	sun.disable();
 	disableDepthTest();
 	cam[activecam].end();
 	setColor(52, 235, 101);
 	camfont.drawText("CAM : " + camnames[activecam], getWidth() - 250, getHeight() - 200);
+	speedfont.drawText("SPEED : " + std::to_string(static_cast<int>(speed * 1000)), getWidth() / 2 - 300, getHeight() / 2);
 }
 
 void gCanvas::moveCameras() {
 	cam[CAM_TOPBACK].setPosition(plane.getPosition());
-	cam[CAM_TOPBACK].pan(planeangle);
+	cam[CAM_TOPBACK].pan(horizontalplaneangle);
 	cam[CAM_TOPBACK].boom(2.0f);
 	cam[CAM_TOPBACK].dolly(6.0f);
 
 	cam[CAM_BACK].setPosition(plane.getPosition());
-	cam[CAM_BACK].pan(planeangle);
+	cam[CAM_BACK].pan(horizontalplaneangle);
 	cam[CAM_BACK].boom(1.0f);
 	cam[CAM_BACK].dolly(5.0f);
 
 	cam[CAM_FRONT].setPosition(plane.getPosition());
-	cam[CAM_FRONT].pan(planeangle);
+	cam[CAM_FRONT].pan(horizontalplaneangle);
 	cam[CAM_FRONT].boom(1.0f);
 
 	cam[CAM_BACK_REVERSE].setPosition(plane.getPosition());
-	cam[CAM_BACK_REVERSE].pan(planeangle);
+	cam[CAM_BACK_REVERSE].pan(horizontalplaneangle);
 	cam[CAM_BACK_REVERSE].boom(1.0f);
 	cam[CAM_BACK_REVERSE].dolly(-3.0f);
+
+	cam[CAM_LEFT].setPosition(plane.getPosition());
+	cam[CAM_LEFT].pan(horizontalplaneangle);
+	cam[CAM_LEFT].boom(1.0f);
+	cam[CAM_LEFT].truck(-2.0f);
+	cam[CAM_LEFT].dolly(1.0f);
+	cam[CAM_LEFT].pan(-PI / 2);
 }
 
 void gCanvas::resetCameras() {
-	cam[CAM_TOPBACK].pan(-planeangle);
-	cam[CAM_BACK].pan(-planeangle);
-	cam[CAM_FRONT].pan(-planeangle);
-	cam[CAM_BACK_REVERSE].pan(-planeangle);
+	cam[CAM_TOPBACK].pan(-horizontalplaneangle);
+	cam[CAM_BACK].pan(-horizontalplaneangle);
+	cam[CAM_FRONT].pan(-horizontalplaneangle);
+	cam[CAM_BACK_REVERSE].pan(-horizontalplaneangle);
+	cam[CAM_LEFT].pan(PI / 2);
+	cam[CAM_LEFT].pan(-horizontalplaneangle);
 }
+
+void gCanvas::resetRotations() {
+	pbackleftwheel.pan(-horizontalplaneangle);
+	pbackrightwheel.pan(-horizontalplaneangle);
+	pfrontwheel.pan(-horizontalplaneangle);
+}
+
 void gCanvas::movePlane() {
-	plane.pan(-planeangle);
+	plane.pan(-horizontalplaneangle);
+	if(keystate & KEY_LEFT_SHIFT) {
+		speed += acceleration;
+		if(speed > maxspeed) speed = maxspeed;
+	} else if(keystate & KEY_LEFT_CONTROL) speed -= deceleration * 8;
+	else {
+		speed -= deceleration;
+		if(speed < 0.0f) speed = 0.0f;
+	}
 	if(keystate & KEY_A) {
-		planeangle += 0.0030f;
+		horizontalplaneangle += 0.0030f;
 	}
 	else if(keystate & KEY_D) {
-		planeangle -= 0.0030f;
+		horizontalplaneangle -= 0.0030f;
 	}
-	plane.pan(planeangle);
-	if(keystate & KEY_LEFT_SHIFT) {
-		plane.dolly(-0.20f);
-	}
-	else if(keystate & KEY_LEFT_CONTROL) {
-		plane.dolly(0.20f);
-	}
+	plane.pan(horizontalplaneangle);
+	plane.dolly(-speed);
+
+	pbackleftwheel.setPosition(plane.getPosition());
+	pbackleftwheel.pan(horizontalplaneangle);
+	pbackleftwheel.dolly(1.8f);
+	pbackleftwheel.truck(-0.13f);
+	pbackrightwheel.setPosition(plane.getPosition());
+	pbackrightwheel.pan(horizontalplaneangle);
+	pbackrightwheel.dolly(1.9f);
+	pbackrightwheel.truck(0.25f);
+	pfrontwheel.setPosition(plane.getPosition());
+	pfrontwheel.pan(horizontalplaneangle);
+	pfrontwheel.boom(0.2f);
+	pfrontwheel.dolly(0.1f);
 }
 
 
@@ -161,7 +211,7 @@ void gCanvas::keyReleased(int key) {
 	}
 	else if(key == G_KEY_C) {
 		activecam += 1;
-		if(activecam == 3) activecam = 0;
+		if(activecam == 4) activecam = 0;
 	}
 	int pressedkey = KEY_NONE;
 
