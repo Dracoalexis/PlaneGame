@@ -46,11 +46,11 @@ public:
 
 private:
 	static const int KEY_NONE = 0, KEY_W = 1, KEY_S = 2,KEY_A = 4, KEY_D = 8, KEY_LEFT_SHIFT = 16,
-	KEY_LEFT_CONTROL = 32;
+	KEY_LEFT_CONTROL = 32, KEY_Q = 64, KEY_E = 128;
 	static const int CAMERANUM = 5;
 
 	enum {
-		CAM_TOPBACK, CAM_BACK, CAM_FRONT, CAM_LEFT, CAM_BACK_REVERSE
+		CAM_TOPBACK, CAM_BACK, CAM_FRONT, CAM_ACTION, CAM_BACK_REVERSE
 	};
 
 	gApp* root;
@@ -67,13 +67,14 @@ private:
 	gModel pfrontwheel;
 	gFont camfont;
 	gFont speedfont;
+	gFont altfont;
 	gSkybox sky;
 	gLight sun;
 
 	std::array<gCamera, CAMERANUM> cam;
 
 	int keystate;
-	float horizontalplaneangle;
+	float horizontalplaneangle, verticalplaneangle, lateralplaneangle,maxlateralplaneangle;
 	int activecam;
 	int previouscam;
 	std::string camnames[CAMERANUM];
