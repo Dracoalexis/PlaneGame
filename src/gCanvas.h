@@ -57,7 +57,6 @@ private:
 
 	void moveCameras();
 	void movePlane();
-	void resetCameras();
 	void resetRotations();
 
 	gModel airport;

@@ -22,7 +22,7 @@ gCanvas::~gCanvas() {
 
 
 void gCanvas::setup() {
-	airport.loadModel("biggermap.obj");
+	airport.loadModel("militarybase.obj");
 	plane.loadModel("planewithoutwheels.obj");
 	pbackleftwheel.loadModel("planeleftbackwheel.obj");
 	pbackrightwheel.loadModel("planerightbackwheel.obj");
@@ -31,9 +31,9 @@ void gCanvas::setup() {
 	speedfont.loadFont("ACES07_Regular.ttf", 20);
 	altfont.loadFont("ACES07_Regular.ttf", 20);
 	plane.boom(-0.15f);
-	plane.dolly(7.0f);
+	plane.dolly(1.0f);
 	plane.truck(-5.0f);
-	plane.pan(PI);
+	plane.pan(PI / 2);
 	pbackleftwheel.pan(PI);
 	pbackrightwheel.pan(PI);
 	pfrontwheel.pan(PI);
@@ -44,7 +44,7 @@ void gCanvas::setup() {
 	sun.setSpecularColor(8, 8, 8);
 	sun.setAmbientColor(255, 255, 255);
 	sun.setDiffuseColor(210, 210, 210);
-	sun.setPosition(0.0f, 200.0f, 200.0f);
+	sun.setPosition(0.0f, 1000.0f, 200.0f);
 	sun.setAttenuation(1.0f, 0.001f, 0.0000000001f);
 	std::vector<std::string> texturepaths;
 	texturepaths.push_back("skymap/right.jpg");
@@ -55,6 +55,7 @@ void gCanvas::setup() {
 	texturepaths.push_back("skymap/back.jpg");
 	sky.loadTextures(texturepaths);
 	sky.scale(20.0f);
+	airport.scale(0.03);
 	sky.pan(PI);
 	keystate = KEY_NONE;
 	horizontalplaneangle = 0.0f;
@@ -68,14 +69,13 @@ void gCanvas::setup() {
 	camnames[CAM_ACTION] = "ACTION";
 	speed = 0.0f;
 	maxspeed = 1.2f;
-	acceleration = 0.0012f;
+	acceleration = 0.0016f;
 	deceleration = 0.0002f;
 }
 
 
 void gCanvas::update() {
-	resetCameras();
-	resetRotations();
+	//resetRotations();
 	movePlane();
 	moveCameras();
 	gLogi("Hýz" + std::to_string(speed));
@@ -105,63 +105,31 @@ void gCanvas::draw() {
 
 void gCanvas::moveCameras() {
 	cam[CAM_TOPBACK].setPosition(plane.getPosition());
-	cam[CAM_TOPBACK].roll(lateralplaneangle);
-	cam[CAM_TOPBACK].pan(horizontalplaneangle);
-	cam[CAM_TOPBACK].tilt(verticalplaneangle);
+	cam[CAM_TOPBACK].setOrientation(plane.getOrientation());
 	cam[CAM_TOPBACK].boom(2.0f);
 	cam[CAM_TOPBACK].dolly(6.0f);
 
-	cam[CAM_BACK].setPosition(plane.getPosition());
-	cam[CAM_BACK].roll(lateralplaneangle);
-	cam[CAM_BACK].pan(horizontalplaneangle);
-	cam[CAM_BACK].tilt(verticalplaneangle);
-	cam[CAM_BACK].boom(1.0f);
-	cam[CAM_BACK].dolly(5.0f);
+    cam[CAM_BACK].setPosition(plane.getPosition());
+    cam[CAM_BACK].setOrientation(plane.getOrientation());
+    cam[CAM_BACK].boom(1.0f);
+    cam[CAM_BACK].dolly(5.0f);
 
 	cam[CAM_FRONT].setPosition(plane.getPosition());
-	cam[CAM_FRONT].roll(lateralplaneangle);
-	cam[CAM_FRONT].pan(horizontalplaneangle);
-	cam[CAM_FRONT].tilt(verticalplaneangle);
+	cam[CAM_FRONT].setOrientation(plane.getOrientation());
 	cam[CAM_FRONT].boom(1.0f);
 
 	cam[CAM_BACK_REVERSE].setPosition(plane.getPosition());
-	cam[CAM_BACK_REVERSE].roll(lateralplaneangle);
-	cam[CAM_BACK_REVERSE].pan(horizontalplaneangle);
-	cam[CAM_BACK_REVERSE].tilt(-verticalplaneangle);
+	cam[CAM_BACK_REVERSE].setOrientation(plane.getOrientation());
+	cam[CAM_BACK_REVERSE].pan(PI);
 	cam[CAM_BACK_REVERSE].boom(1.0f);
 	cam[CAM_BACK_REVERSE].dolly(-3.0f);
 
 	cam[CAM_ACTION].setPosition(plane.getPosition());
-	cam[CAM_ACTION].roll(verticalplaneangle);
-	cam[CAM_ACTION].pan(horizontalplaneangle);
-	cam[CAM_ACTION].tilt(-lateralplaneangle);
-	cam[CAM_ACTION].pan(PI / 2);
+	cam[CAM_ACTION].setOrientation(plane.getOrientation());
+	cam[CAM_ACTION].pan(PI);
 	cam[CAM_ACTION].boom(1.0f);
 	cam[CAM_ACTION].truck(0.8f);
 	cam[CAM_ACTION].dolly(1.5f);
-}
-
-void gCanvas::resetCameras() {
-	cam[CAM_TOPBACK].tilt(-verticalplaneangle);
-	cam[CAM_TOPBACK].pan(-horizontalplaneangle);
-	cam[CAM_TOPBACK].roll(-lateralplaneangle);
-
-	cam[CAM_BACK].tilt(-verticalplaneangle);
-	cam[CAM_BACK].pan(-horizontalplaneangle);
-	cam[CAM_BACK].roll(-lateralplaneangle);
-
-	cam[CAM_FRONT].tilt(-verticalplaneangle);
-	cam[CAM_FRONT].pan(-horizontalplaneangle);
-	cam[CAM_FRONT].roll(-lateralplaneangle);
-
-	cam[CAM_BACK_REVERSE].tilt(verticalplaneangle);
-	cam[CAM_BACK_REVERSE].pan(-horizontalplaneangle);
-	cam[CAM_BACK_REVERSE].roll(-lateralplaneangle);
-
-	cam[CAM_ACTION].pan(-PI / 2);
-	cam[CAM_ACTION].tilt(lateralplaneangle);
-	cam[CAM_ACTION].pan(-horizontalplaneangle);
-	cam[CAM_ACTION].roll(-verticalplaneangle);
 }
 
 void gCanvas::resetRotations() {
@@ -183,59 +151,57 @@ void gCanvas::resetRotations() {
 }
 
 void gCanvas::movePlane() {
-
 	if(keystate & KEY_LEFT_SHIFT) {
 		speed += acceleration;
-		if(speed > maxspeed) speed = maxspeed;
-	} else if(keystate & KEY_LEFT_CONTROL) {
-		speed -= deceleration * 8;
-		if(speed < 0.0f) speed = 0.0f;
+		if(speed > maxspeed)
+			speed = maxspeed;
+	}
+	else if(keystate & KEY_LEFT_CONTROL) {
+		speed -= deceleration * 12;
+
+		if(speed < 0.0f)
+			speed = 0.0f;
 	}
 	else {
 		speed -= deceleration;
-		if(speed < 0.0f) speed = 0.0f;
+
+		if(speed < 0.0f)
+			speed = 0.0f;
 	}
 	if(keystate & KEY_Q) {
-		horizontalplaneangle += 0.0030f;
+		plane.pan(0.0030f);
 	}
 	else if(keystate & KEY_E) {
-		horizontalplaneangle -= 0.0030f;
+		plane.pan(-0.0030f);
 	}
-	//if(speed >= 0.300000) {
-		if(keystate & KEY_W) {
-			verticalplaneangle -= 0.0030f;
-		}
-		else if(keystate & KEY_S) {
-			verticalplaneangle += 0.0030f;
-		}
-		if(keystate & KEY_A) {
-			lateralplaneangle += 0.0090f;
-		}
-		else if(keystate & KEY_D) {
-			lateralplaneangle -= 0.0090f;
-		}
-	//}
-	plane.pan(horizontalplaneangle);
-	plane.tilt(verticalplaneangle);
-	plane.roll(lateralplaneangle);
+	if(keystate & KEY_W) {
+		plane.tilt(-0.0060f);
+	}
+	else if(keystate & KEY_S) {
+		plane.tilt(0.0060f);
+	}
+	if(keystate & KEY_A) {
+		plane.roll(0.0190f);
+		//plane.pan(0.0060f);
+	}
+	else if(keystate & KEY_D) {
+		plane.roll(-0.0190f);
+		//plane.pan(-0.0060f);
+	}
 	plane.dolly(-speed);
 
 	pbackleftwheel.setPosition(plane.getPosition());
-	pbackleftwheel.pan(horizontalplaneangle);
-	pbackleftwheel.tilt(verticalplaneangle);
-	pbackleftwheel.roll(lateralplaneangle);
+	pbackleftwheel.setOrientation(plane.getOrientation());
 	pbackleftwheel.dolly(1.8f);
 	pbackleftwheel.truck(-0.13f);
+
 	pbackrightwheel.setPosition(plane.getPosition());
-	pbackrightwheel.pan(horizontalplaneangle);
-	pbackrightwheel.tilt(verticalplaneangle);
-	pbackrightwheel.roll(lateralplaneangle);
+	pbackrightwheel.setOrientation(plane.getOrientation());
 	pbackrightwheel.dolly(1.9f);
 	pbackrightwheel.truck(0.25f);
+
 	pfrontwheel.setPosition(plane.getPosition());
-	pfrontwheel.pan(horizontalplaneangle);
-	pfrontwheel.tilt(verticalplaneangle);
-	pfrontwheel.roll(lateralplaneangle);
+	pfrontwheel.setOrientation(plane.getOrientation());
 	pfrontwheel.boom(0.2f);
 	pfrontwheel.dolly(0.1f);
 }

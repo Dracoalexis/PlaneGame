@@ -1,0 +1,2478 @@
+# Blender 5.1.2 MTL File: 'military.blend'
+# www.blender.org
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.001_baseColor.png
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.014349 0.014349 0.014349
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.003
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.003_baseColor.jpeg
+
+newmtl Material.004
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.015995 0.015995 0.015995
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.005
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.003_baseColor.jpeg
+
+newmtl Material.006
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.163959 0.024159 0.015297
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.007
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.014349 0.014349 0.014349
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.008
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.225786 0.225786 0.225786
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.009
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.009_baseColor.png
+
+newmtl Material.010
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.010_baseColor.png
+
+newmtl Material.011
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.011_baseColor.png
+
+newmtl Material.012
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.012_baseColor.png
+
+newmtl Material.013
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.009_baseColor.png
+
+newmtl Material.014
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.147939 0.147939 0.147939
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.015
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.157436 0.124959 0.006938
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.016
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.044455 0.009565 0.001319
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.017
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.017_baseColor.png
+
+newmtl Material.018
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.018_baseColor.png
+
+newmtl Material.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.054275 0.054275 0.054275
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.020
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.018_baseColor.png
+
+newmtl Material.021
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.044455 0.009565 0.001319
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.022
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.054275 0.054275 0.054275
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.023
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.163959 0.024159 0.015297
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.024
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Material.017_baseColor.png
+
+newmtl Material.025
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Road007_4K-JPG_Color.jpg
+
+newmtl Material.026
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Road007_4K-JPG_Color.jpg
+
+newmtl coast_sand_rocks_02.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.003
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.004
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.005
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.006
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.007
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.008
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.009
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.010
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.011
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.012
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.013
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.014
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.015
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.016
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.017
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.018
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.020
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.021
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.022
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.023
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.024
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.025
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.026
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.027
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.028
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.029
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.030
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.031
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.032
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.033
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.034
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.035
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.036
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.037
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.038
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.039
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.040
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.042
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.043
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.044
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.045
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.046
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.047
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.048
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.049
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.050
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.051
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.052
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.053
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.054
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.055
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.056
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.057
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.058
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.059
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.060
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.061
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.062
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.063
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.064
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.065
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.066
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.067
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.068
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.069
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.070
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.071
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.072
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.073
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.074
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.075
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.076
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.077
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.078
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.079
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.080
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.081
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.082
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.083
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.084
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.085
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.086
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.087
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.088
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.089
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.090
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.091
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.092
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.093
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.094
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.095
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.096
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.097
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.098
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.099
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.100
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.101
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.102
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.103
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.104
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.105
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.106
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.107
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.108
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.109
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.110
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.111
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.112
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.113
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.114
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.115
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.116
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.117
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.118
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.119
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.120
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.121
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.122
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.123
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.124
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.125
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.126
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.127
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.128
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.129
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.130
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.131
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.132
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.133
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.134
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.135
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.136
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.137
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.138
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.139
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.140
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.141
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.142
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.143
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.144
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.145
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.146
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.147
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.148
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.149
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.150
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.151
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.152
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.153
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.154
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.155
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.156
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.157
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.158
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.159
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.160
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.161
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.162
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.163
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.164
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.165
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.166
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.167
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.168
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.169
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.170
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.171
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.172
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.173
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.174
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.175
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.176
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.177
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.178
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.179
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.180
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.181
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.182
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.183
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.184
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.185
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.186
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.187
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.188
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.189
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.190
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.191
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.192
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.193
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.194
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.195
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl coast_sand_rocks_02.196
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd coast_sand_rocks_02.001_baseColor.jpeg
+map_Bump -bm 1.000000 coast_sand_rocks_02.001_normal.png
+
+newmtl material_0
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl material_0.001
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl object_2
+Ns 9.849171
+Ka 1.000000 1.000000 1.000000
+Kd 0.698039 0.698039 0.698039
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl roadl.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd roadl.012_baseColor.png
+
+newmtl roadl.012
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd roadl.012_baseColor.png
