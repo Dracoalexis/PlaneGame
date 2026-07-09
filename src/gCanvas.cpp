@@ -30,6 +30,7 @@ void gCanvas::setup() {
 	camfont.loadFont("ACES07_Regular.ttf", 20);
 	speedfont.loadFont("ACES07_Regular.ttf", 20);
 	altfont.loadFont("ACES07_Regular.ttf", 20);
+	stallfont.loadFont("ACES07_Regular.ttf", 20);
 	plane.boom(-0.15f);
 	plane.dolly(1.0f);
 	plane.truck(-5.0f);
@@ -58,10 +59,6 @@ void gCanvas::setup() {
 	airport.scale(0.03);
 	sky.pan(PI);
 	keystate = KEY_NONE;
-	horizontalplaneangle = 0.0f;
-	verticalplaneangle = 0.0f;
-	lateralplaneangle = 0.0f;
-	maxlateralplaneangle = PI / 4;
 	camnames[CAM_TOPBACK] = "TOP BACK";
 	camnames[CAM_BACK] = "BACK";
 	camnames[CAM_FRONT] = "FRONT";
@@ -71,6 +68,10 @@ void gCanvas::setup() {
 	maxspeed = 1.2f;
 	acceleration = 0.0016f;
 	deceleration = 0.0002f;
+	wheeltiltangle = 0.0f;
+	maxwheeltiltangle = PI / 2;
+	fallrate = 0.0f;
+	fallacceleration = 0.0004f;
 }
 
 
@@ -100,7 +101,7 @@ void gCanvas::draw() {
 	camfont.drawText("CAM : " + camnames[activecam], getWidth() - 250, getHeight() - 200);
 	speedfont.drawText("SPEED : " + std::to_string(static_cast<int>(speed * 1000)), getWidth() / 2 - 300, getHeight() / 2);
 	altfont.drawText("ALT : " + std::to_string(static_cast<int>(plane.getPosY() * 10)), getWidth() / 2 + 200, getHeight() / 2);
-
+	if(fallrate > 0.06f) stallfont.drawText("STALL WARNING", (getWidth() - stallfont.getStringWidth("STALL WARNING")) / 2, getHeight() - 200);
 }
 
 void gCanvas::moveCameras() {
@@ -132,24 +133,6 @@ void gCanvas::moveCameras() {
 	cam[CAM_ACTION].dolly(1.5f);
 }
 
-void gCanvas::resetRotations() {
-	pbackleftwheel.roll(-lateralplaneangle);
-	pbackleftwheel.tilt(-verticalplaneangle);
-	pbackleftwheel.pan(-horizontalplaneangle);
-
-	pbackrightwheel.roll(-lateralplaneangle);
-	pbackrightwheel.tilt(-verticalplaneangle);
-	pbackrightwheel.pan(-horizontalplaneangle);
-
-	pfrontwheel.roll(-lateralplaneangle);
-	pfrontwheel.tilt(-verticalplaneangle);
-	pfrontwheel.pan(-horizontalplaneangle);
-
-	plane.roll(-lateralplaneangle);
-	plane.tilt(-verticalplaneangle);
-	plane.pan(-horizontalplaneangle);
-}
-
 void gCanvas::movePlane() {
 	if(keystate & KEY_LEFT_SHIFT) {
 		speed += acceleration;
@@ -157,7 +140,7 @@ void gCanvas::movePlane() {
 			speed = maxspeed;
 	}
 	else if(keystate & KEY_LEFT_CONTROL) {
-		speed -= deceleration * 12;
+		speed -= deceleration * 15;
 
 		if(speed < 0.0f)
 			speed = 0.0f;
@@ -174,11 +157,13 @@ void gCanvas::movePlane() {
 	else if(keystate & KEY_E) {
 		plane.pan(-0.0030f);
 	}
-	if(keystate & KEY_W) {
-		plane.tilt(-0.0060f);
-	}
-	else if(keystate & KEY_S) {
-		plane.tilt(0.0060f);
+	if(plane.getPosY() > 1.0f || speed >= 0.300f) {
+		if(keystate & KEY_W) {
+			plane.tilt(-0.0090f);
+		}
+		else if(keystate & KEY_S) {
+			plane.tilt(0.0090f);
+		}
 	}
 	if(keystate & KEY_A) {
 		plane.roll(0.0190f);
@@ -190,20 +175,47 @@ void gCanvas::movePlane() {
 	}
 	plane.dolly(-speed);
 
-	pbackleftwheel.setPosition(plane.getPosition());
-	pbackleftwheel.setOrientation(plane.getOrientation());
-	pbackleftwheel.dolly(1.8f);
-	pbackleftwheel.truck(-0.13f);
+	glm::vec3 forward = plane.getOrientation() * glm::vec3(0.0f, 0.0f, -1.0f);
+	if(speed < 0.300f && forward.y > 0.0f && plane.getPosY() > 1.0f) {
+		fallrate += fallacceleration;
+		plane.move(0.0f, -fallrate, 0.0f);
+	}
+	else {
+		fallrate = 0.0f;
+	}
 
-	pbackrightwheel.setPosition(plane.getPosition());
-	pbackrightwheel.setOrientation(plane.getOrientation());
-	pbackrightwheel.dolly(1.9f);
-	pbackrightwheel.truck(0.25f);
+	glm::quat planeorientation = plane.getOrientation();
+	glm::vec3 pivot = plane.getPosition() + planeorientation * glm::vec3(-0.13f, 0.8f, 1.8f);
+	glm::vec3 wheeloffset =  glm::vec3(0.0f, -0.8f, 0.0f);
+	if(plane.getPosY() >= 12.0f) {
+	    wheeltiltangle -= 0.02f;
+	    if(wheeltiltangle <= -maxwheeltiltangle)
+	        wheeltiltangle = -maxwheeltiltangle;
+	}
+	else {
+		wheeltiltangle += 0.02f;
+		if(wheeltiltangle >= 0.0f) {
+			wheeltiltangle = 0.0f;
+		}
+	}
+	glm::quat wheelrotation = glm::angleAxis(-wheeltiltangle, glm::vec3(1.0f, 0.0f, 0.0f));
+	glm::vec3 wheelposition = pivot + planeorientation * (wheelrotation * wheeloffset);
+	pbackleftwheel.setPosition(wheelposition);
+	pbackleftwheel.setOrientation(planeorientation * wheelrotation);
 
-	pfrontwheel.setPosition(plane.getPosition());
-	pfrontwheel.setOrientation(plane.getOrientation());
-	pfrontwheel.boom(0.2f);
-	pfrontwheel.dolly(0.1f);
+	glm::vec3 rightpivot = plane.getPosition() + planeorientation * glm::vec3(0.25f, 0.8f, 1.9f);
+	glm::vec3 rightwheeloffset = glm::vec3(0.0f, -0.8f, 0.0f);
+	glm::quat rightwheelrotation = glm::angleAxis(-wheeltiltangle * 0.8f, glm::vec3(1.0f, 0.0f, 0.0f));
+	glm::vec3 rightwheelposition =rightpivot + planeorientation * (rightwheelrotation * rightwheeloffset);
+	pbackrightwheel.setPosition(rightwheelposition);
+	pbackrightwheel.setOrientation(planeorientation * rightwheelrotation);
+
+	glm::vec3 frontpivot = plane.getPosition() + planeorientation * glm::vec3(0.0f, 0.8f, 0.1f);
+	glm::vec3 frontwheeloffset = glm::vec3(0.0f, -0.6f, 0.0f);
+	glm::quat frontwheelrotation = glm::angleAxis(wheeltiltangle, glm::vec3(1.0f, 0.0f, 0.0f));
+	glm::vec3 frontwheelposition = frontpivot + planeorientation * (frontwheelrotation * frontwheeloffset);
+	pfrontwheel.setPosition(frontwheelposition);
+	pfrontwheel.setOrientation(planeorientation * frontwheelrotation);
 }
 
 

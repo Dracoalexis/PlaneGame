@@ -67,6 +67,7 @@ private:
 	gFont camfont;
 	gFont speedfont;
 	gFont altfont;
+	gFont stallfont;
 	gSkybox sky;
 	gLight sun;
 
@@ -78,6 +79,8 @@ private:
 	int previouscam;
 	std::string camnames[CAMERANUM];
 	float speed, maxspeed, acceleration, deceleration;
+	float wheeltiltangle, maxwheeltiltangle;
+	float fallrate, fallacceleration;
 };
 
 #endif /* GCANVAS_H_ */
