@@ -81,6 +81,7 @@ private:
 	float speed, maxspeed, acceleration, deceleration;
 	float wheeltiltangle, maxwheeltiltangle;
 	float fallrate, fallacceleration;
+	float topbackcameradistance = 6.0f;
 };
 
 #endif /* GCANVAS_H_ */

@@ -71,7 +71,8 @@ void gCanvas::setup() {
 	wheeltiltangle = 0.0f;
 	maxwheeltiltangle = PI / 2;
 	fallrate = 0.0f;
-	fallacceleration = 0.0004f;
+	fallacceleration = 0.0006f;
+	topbackcameradistance = 6.0f;
 }
 
 
@@ -79,7 +80,7 @@ void gCanvas::update() {
 	//resetRotations();
 	movePlane();
 	moveCameras();
-	gLogi("Hýz" + std::to_string(speed));
+	gLogi("Hýz " + std::to_string(speed));
 	gLogi("Yükseklik " + std::to_string(plane.getPosY()));
 }
 
@@ -108,7 +109,7 @@ void gCanvas::moveCameras() {
 	cam[CAM_TOPBACK].setPosition(plane.getPosition());
 	cam[CAM_TOPBACK].setOrientation(plane.getOrientation());
 	cam[CAM_TOPBACK].boom(2.0f);
-	cam[CAM_TOPBACK].dolly(6.0f);
+	cam[CAM_TOPBACK].dolly(topbackcameradistance);
 
     cam[CAM_BACK].setPosition(plane.getPosition());
     cam[CAM_BACK].setOrientation(plane.getOrientation());
@@ -135,9 +136,10 @@ void gCanvas::moveCameras() {
 
 void gCanvas::movePlane() {
 	if(keystate & KEY_LEFT_SHIFT) {
+		topbackcameradistance += 0.008f;
 		speed += acceleration;
-		if(speed > maxspeed)
-			speed = maxspeed;
+		if(topbackcameradistance > 7.5f) topbackcameradistance = 7.5f;
+		if(speed > maxspeed) speed = maxspeed;
 	}
 	else if(keystate & KEY_LEFT_CONTROL) {
 		speed -= deceleration * 15;
@@ -146,10 +148,10 @@ void gCanvas::movePlane() {
 			speed = 0.0f;
 	}
 	else {
+		topbackcameradistance -= 0.008f;
 		speed -= deceleration;
-
-		if(speed < 0.0f)
-			speed = 0.0f;
+		if(topbackcameradistance < 6.0f) topbackcameradistance = 6.0f;
+		if(speed < 0.0f) speed = 0.0f;
 	}
 	if(keystate & KEY_Q) {
 		plane.pan(0.0030f);
@@ -174,8 +176,9 @@ void gCanvas::movePlane() {
 		//plane.pan(-0.0060f);
 	}
 	plane.dolly(-speed);
-
+	//Fall mechanic
 	glm::vec3 forward = plane.getOrientation() * glm::vec3(0.0f, 0.0f, -1.0f);
+	speed -= forward.y * 0.001f;
 	if(speed < 0.300f && forward.y > 0.0f && plane.getPosY() > 1.0f) {
 		fallrate += fallacceleration;
 		plane.move(0.0f, -fallrate, 0.0f);
@@ -183,7 +186,7 @@ void gCanvas::movePlane() {
 	else {
 		fallrate = 0.0f;
 	}
-
+	//Wheel pivot calculation
 	glm::quat planeorientation = plane.getOrientation();
 	glm::vec3 pivot = plane.getPosition() + planeorientation * glm::vec3(-0.13f, 0.8f, 1.8f);
 	glm::vec3 wheeloffset =  glm::vec3(0.0f, -0.8f, 0.0f);
