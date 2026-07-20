@@ -1,53 +1,66 @@
-Features
-Flight System
-Quaternion-based aircraft orientation (local-axis rotations)
-Six Degrees of Freedom (6DoF) movement
-Smooth yaw, pitch and roll controls
-Roll-based turning behavior for realistic banking
-Speed-dependent takeoff system
-Manual throttle and braking controls
-Pitch-based acceleration and deceleration
-Stall detection and automatic loss of altitude
-Gravity-like falling mechanic during stall conditions
-Landing Gear
-Automatic landing gear retraction after reaching safe altitude
-Automatic landing gear deployment during landing
-Realistic gear rotation around custom hinge pivots
-Independent animation for left, right and nose landing gear
-Camera System
-Multiple camera modes
-Top Back Camera
-Back Camera
-Front Camera
-Reverse Camera
-Action Camera
-Cameras fully synchronized with aircraft quaternion orientation
-Dynamic acceleration camera (camera smoothly moves backward while accelerating)
-Instant camera switching
-Environment
-Large military airbase environment
-Skybox rendering
-Directional sunlight and lighting
-3D model rendering with textured assets
-HUD
-Current speed indicator
-Altitude indicator
-Active camera display
-Stall Warning notification
-Physics & Gameplay
-Speed-based takeoff restriction
-Aircraft cannot lift off below minimum takeoff speed
-Speed naturally changes depending on aircraft pitch
-Smooth acceleration and deceleration
-Progressive falling speed during stalls
-Technical Features
-Quaternion-based transformation system
-Local-axis movement and rotations
-Hierarchical transformation support
-Multiple independent camera controllers
-GLM mathematics
-Assimp model loading
-Object-oriented C++ architecture
+## Features
+
+### ✈️ Flight System
+
+- Quaternion-based aircraft orientation (local-axis rotations)
+- Six Degrees of Freedom (6DoF) movement
+- Smooth yaw, pitch and roll controls
+- Roll-based turning behavior for realistic banking
+- Speed-dependent takeoff system
+- Manual throttle and braking controls
+- Pitch-based acceleration and deceleration
+- Stall detection and automatic loss of altitude
+- Gravity-like falling mechanic during stall conditions
+
+### 🛞 Landing Gear
+
+- Automatic landing gear retraction after reaching safe altitude
+- Automatic landing gear deployment during landing
+- Realistic gear rotation around custom hinge pivots
+- Independent animation for left, right and nose landing gear
+
+### 🎥 Camera System
+
+- Top Back Camera
+- Back Camera
+- Front Camera
+- Reverse Camera
+- Action Camera
+- Cameras fully synchronized with aircraft quaternion orientation
+- Dynamic acceleration camera (camera smoothly moves backward while accelerating)
+- Instant camera switching
+
+### 🌍 Environment
+
+- Large military airbase environment
+- Skybox rendering
+- Directional sunlight and lighting
+- 3D model rendering with textured assets
+
+### 📊 HUD
+
+- Current speed indicator
+- Altitude indicator
+- Active camera display
+- Stall Warning notification
+
+### ⚙️ Flight Physics
+
+- Speed-based takeoff restriction
+- Aircraft cannot lift off below minimum takeoff speed
+- Speed naturally changes depending on aircraft pitch
+- Smooth acceleration and deceleration
+- Progressive falling speed during stall conditions
+
+### 💻 Technical Features
+
+- Quaternion-based transformation system
+- Local-axis movement and rotations
+- Hierarchical transformation support
+- Multiple independent camera controllers
+- GLM mathematics
+- Assimp model loading
+- Object-oriented C++ architecture
 
 Assets:
 F16: https://sketchfab.com/3d-models/low-poly-f16-857c52e25ef146ec9da08a1f3c7706f2?utm_source=chatgpt.com
